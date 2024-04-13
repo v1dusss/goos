@@ -26,7 +26,7 @@
             label = "HOME_ROW_MODS";
             #binding-cells = <2>;
             flavor = "balanced";
-            tapping-term-ms = <200>;
+            tapping-term-ms = <400>;
             bindings = <&kp>, <&kp>;
         };
 
@@ -48,6 +48,11 @@
             bindings = <&tog 4>;
             key-positions = <8 28>;
         };
+
+        Lock_my_Screen {
+            bindings = <&kp K_COFFEE>;
+            key-positions = <9 29>;
+        };
     };
 
     keymap {
@@ -55,10 +60,10 @@
 
         alpha_layer_qwerty {
             bindings = <
-&kp Q                &kp W            &kp E                &kp R              &kp T                                 &kp Y        &kp U               &kp I                 &kp O             &kp P
-&hrm LEFT_CONTROL A  &hrm LEFT_ALT S  &hrm LEFT_COMMAND D  &hrm LEFT_SHIFT F  &kp G                                 &kp H        &hrm RIGHT_SHIFT J  &hrm RIGHT_COMMAND K  &hrm RIGHT_ALT L  &hrm RIGHT_CONTROL SEMICOLON
-&kp Z                &kp X            &kp C                &kp V              &kp B                                 &kp N        &kp M               &kp COMMA             &kp DOT           &kp SLASH
-                                                           &kp ESC            &lt_repeat 2 0  &kp TAB    &kp ENTER  &lt 1 SPACE  &kp BSPC
+&kp Q                &kp W            &kp E                &kp R              &kp T                               &kp Y            &kp U               &kp I                 &kp O             &kp P
+&hrm LEFT_CONTROL A  &hrm LEFT_ALT S  &hrm LEFT_COMMAND D  &hrm LEFT_SHIFT F  &kp G                               &kp H            &hrm RIGHT_SHIFT J  &hrm RIGHT_COMMAND K  &hrm RIGHT_ALT L  &hrm RIGHT_CONTROL SEMICOLON
+&kp Z                &kp X            &kp C                &kp V              &kp B                               &kp N            &kp M               &kp COMMA             &kp DOT           &kp SLASH
+                                                           &kp ESC            &lt 2 DELETE  &kp TAB    &kp ENTER  &lt 1 BACKSPACE  &kp SPACE
             >;
         };
 
