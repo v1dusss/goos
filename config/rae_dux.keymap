@@ -92,6 +92,8 @@
             #binding-cells = <0>;
             bindings = <&none &kp G &kp I &kp T &kp SPACE &kp C &kp L &kp O &kp N &kp E &kp SPACE>;
             label = "GITHUB";
+            wait-ms = <1>;
+            tap-ms = <1>;
         };
     };
 
