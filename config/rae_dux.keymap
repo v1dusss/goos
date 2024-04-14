@@ -69,7 +69,7 @@
         };
 
         Lock_my_Screen {
-            bindings = <&kp K_LOCK>;
+            bindings = <&kp LC(LG(Q))>;
             key-positions = <9 29>;
         };
 
